@@ -80,14 +80,5 @@ namespace VPNFinder
             return list;
         }
     }
-
-    public class Customer
-    {
-        [JsonProperty(PropertyName = "email")]
-        public string Email { get; set; }
-
-        public string Test { get; set; }
-
-    }
 }
 
